@@ -5,6 +5,7 @@ import Footer from "./pages/Footer";
 import Products from "./pages/Products";
 import RegistrationForm from "./pages/RegistrationForm";
 import LoginForm from "./pages/LoginForm";
+import HomeMain from "./pages/HomeMain";
 
 function App() {
   return (
@@ -17,24 +18,12 @@ function App() {
            <Route path="/products" element={<Products />} />
            <Route path="registration" element={<RegistrationForm />} />
            <Route path="loginform" element={<LoginForm />} />
+           <Route path="HomeMain" element={<HomeMain />} />
          </Routes>
           <Footer />
 
         </div>
       </div>
-
-
-
-
-
-
-
-      
-
-
-
-
-
     </>
   );
 }
