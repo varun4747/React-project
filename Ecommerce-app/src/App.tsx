@@ -5,7 +5,7 @@ import Footer from "./pages/Footer";
 import Products from "./pages/Products";
 import RegistrationForm from "./pages/RegistrationForm";
 import LoginForm from "./pages/LoginForm";
-import PaginationBasic from "./pages/Paginantion";
+import PagenateCom from "./pages/PagenateCom";
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
            <Route path="/products" element={<Products />} />
            <Route path="registration" element={<RegistrationForm />} />
            <Route path="loginform" element={<LoginForm />} />
-           <Route path="pagination" element={<PaginationBasic />} />
+           <Route path="pagenateCom" element={<PagenateCom />} />
            
          </Routes>
           <Footer />
